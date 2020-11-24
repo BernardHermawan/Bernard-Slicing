@@ -1,0 +1,369 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	left:0;
+	margin:0;
+}
+.container{
+	color:white;
+	font-style:none;
+	
+}
+	
+.page-section h3.section-subheading{
+	font-style:normal;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.btn{
+	border-radius : 100px;
+	border:none;
+	color : white;
+	font-weight:bold;
+	
+}
+.btn-primary{
+	background: #0A84E1;
+	padding-left:16px !important;
+	padding-right:16px !important;
+}
+.btn-primary:hover{
+	background: #0863a9 !important;
+	color:white !important;
+}
+.btn-primary:active{
+	background: #0863a9 !important;
+	color:white !important;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle{
+	background: #0A84E1;
+	color:white !important;
+	border-color:white !important;
+	border-style:none;
+}
+	
+/*FULL DESKTOP MEDIA*/
+
+#mainNav {
+	padding-top:0px;
+	padding-bottom:0px; 
+	background:#031321;
+}
+.mainnav-user{
+	background:#06386F;
+	padding-top:0px;
+	padding-bottom:0px; 
+	width:100%;
+	margin:0;
+}
+#mainNav::after{
+	border-top-width: 0.25rem;
+    border-top-style: solid;
+    -webkit-border-radius: 0.25rem 0.25rem 0 0;
+    border-radius: 0.25rem 0.25rem 0 0;
+    bottom: -0.125rem;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+/* TRANSPARENT BACKGROUND*/
+header.masthead{
+	position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	
+}
+header.masthead::before {    
+      content: "";
+      background:url('../assets/img/home/307892-Lunox-Mobile-Legends-4K.png')!important;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.25;
+}
+
+.masthead .container,.masthead-heading,.master-subheading {
+  position: relative;
+  color: #ffffff;  
+  font-size: 14rem;
+  line-height: 0.9;
+  text-align: center;
+}
+#tungguapalagi{
+	background:url('../assets/img/home/Group 63.png');
+	background-size:100%;
+	width:100%;
+	position:relative;
+	z-index:10;
+}
+#tungguapalagi h2{
+	font-family:Geometr415 Blk BT;
+}
+
+@media (min-width: 1200px){
+	#tungguapalagi .container{
+		max-width:100%;
+		padding:0;
+	}
+	.karosel .container{
+	width:1140px;
+	text-align:center;
+	}
+	#tungguapalagi .team-member{
+		margin-bottom:0;
+		width:auto;
+	}
+	#tungguapalagi .team-member img{
+		width:auto;
+		border:none;
+	}
+}
+
+/*END OF TRANSPARENT BACKGROUND*/
+.masthead .container,.masthead-heading,.master-subheading {
+  position: relative;
+  color: #ffffff;  
+  font-size: 14rem;
+  line-height: 0.9;
+  text-align: center;
+}
+	
+	
+header.masthead .masthead-heading{
+	font-family:Geometr415 Blk BT;
+	
+}
+header.masthead .masthead-subheading{
+	font-family:Montserrat;
+	font-style:normal;
+	font-weight:400;
+}
+.text-secondary{
+	color:#0A84E1 !important;
+}
+.masthead-heading{
+	position:absoulte;
+}
+.bg-primary{
+	background:#031321 !important;
+}
+.bg-secondary{
+	background:#0A84E1 !important;
+}
+.bg-tertiary{
+	background:#004E99 !important;
+}
+.bg-3{
+	background:#0A74C6;
+}
+.border-round{
+	border-radius:25px;
+}
+.shadow-secondary{
+	box-shadow: 0px 3px 30px  #0A84E1;
+}
+/*MEDIA*/
+@media (min-width: 992px){
+	#register img{
+		width:100%;
+	}
+	#loginimg{
+		width:100%;
+	}
+#mainNav .navbar-brand img,#mainNav.navbar-shrink .navbar-brand svg, #mainNav.navbar-shrink .navbar-brand img{
+	height:auto;
+}
+#mainNav,#mainNav.navbar-shrink {
+	padding-top:0px;
+	padding-bottom:0px;
+	background:#031321;
+}
+#mainNav::after{
+    content: "";
+	bottom:-0.0rem;
+    height: 7.5px;
+	width:100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+	margin-top:-100px;
+	background:url('../assets/img/home/Rectangle 3.png');
+	z-index:20;
+	
+	
+}
+
+}
+@media (max-width: 991.98px){
+	#register img{
+		width:0px;
+	}
+	#login img{
+		width:0px;
+	}		
+	#mainNav .navbar-brand img,#mainNav.navbar-shrink .navbar-brand svg, #mainNav.navbar-shrink .navbar-brand img{
+	width:50%;
+	height:50%;
+}
+
+#mainNav::after{
+    content: "";
+	bottom:-0.0rem;
+    height: 7.5px;
+	width:100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+	margin-top:-100px;
+	background:url('../assets/img/home/Rectangle 3.png');
+	background-size:100%;
+	z-index:20;
+}
+.nav-item{
+	text-align:center;
+}
+header.masthead::before {    
+      content: "";
+      background:url('../assets/img/home/307892-Lunox-Mobile-Legends-4K.png')!important;
+      background-size: 100%;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.25;
+}
+}
+/*KAROSEL*/
+.karosel{
+	background:url('../assets/img/home/Rectangle 18.png');
+	background-size:100%;
+	width:100%;
+	margin-left:0;
+}
+/* FOOTER */
+.footer{
+	text-align:left;
+	color:white;
+	font-weight:200;
+	background:#000C17;
+}
+.footer p{
+	float:right;
+}
+.footer-label{
+	text-align:left;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#0A84E1;
+	font-weight:200;
+}
+footer ul{
+	list-style:none;
+	left:20px;
+	padding-inline-start: 0px;
+}
+
+footer li{
+	text-align:left;
+}
+.text-blue{
+	color:#0A84E1;
+}
+footer li a{
+	color:white;
+	font-weight:200;
+}
+footer li a:hover{
+	font-weight:700;
+	text-decoration:none;
+	color:white;
+}
+.inline li{
+	margin-right:10px;
+	display : inline;
+}
+.bg-pattern{
+	background:url('../assets/img/Group 96.png');
+	background-size:cover;
+	background-attachment:fixed;
+}
+#register .card{
+	border:none;
+	border-style:none;
+	border-radius:0;
+}
+#login.card{
+	border:none;
+	border-style:none;
+	border-radius:0;
+}
+.search-bar{
+	padding:6px;
+	border-radius:25px;
+	border-style : none;
+	background:white;
+}
+.search-bar input{
+	border-style:none;
+}
+.search-bar i{
+	color:#0A84E1 !important;
+	
+}
+.select2-container--open .select2-dropdown--below,.select2-container--open .select2-dropdown--above{
+	border-radius : 0 0 5px 5px;
+	background:#00203D;
+	border-style:none;
+	color:#0A84E1;
+	padding:10px;
+}
+.select2-results__option{
+	border-bottom:1px solid;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected]:hover{
+	background:#0A84E1;
+	border-radius:5px;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field{
+	border-style :none;
+	border-bottom :1px solid #0A84E1;
+	margin-bottom:5px;
+	border-color:none;
+	background:none;
+}
+.select2, .select2-container, .select2-container--default .select2-container--below .select2-container--focus{
+	width:400px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius :5px;
+  padding:2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:#00203D;
+  border-radius :5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0A84E1; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #004E99; 
+}

@@ -1,0 +1,161 @@
+@media (max-width:992px){
+	.gs-card .card{
+		font-size:12px;
+		background:none;
+	}
+	.gs-card .card p{
+		margin-bottom:0px;
+		line-height:16px;
+	}
+	.gs-card 
+	h6{
+		font-size:12px;
+		font-weight:700;
+	}
+	.mobile{
+		display:block !important;
+	}
+	.desktop{
+		display:none !important;
+	}
+	#navbarmenu{
+		margin-top:1000px;
+		position:fixed;
+	}
+	.bg-pattern{
+		padding-top:10px;
+	}
+	.mobile-hidden{
+		display:none !important;
+	}
+	.btn-group .btn{
+	padding-top:5px !important;
+	padding-bottom:5px !important;
+	}
+	#thread{
+		margin-top:50px;
+	}
+}
+.btn-group .btn{
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle{
+	border:none;
+}
+@media (min-width:992.1px){
+	.desktop{
+		display:block;
+	}
+	.mobile{
+		display:none;
+	}
+}
+/*LEFT NAVBAR*/
+.offcanvas-header{ display:none; }
+.screen-overlay {
+  height: 100%;
+  z-index: 30;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity:0;
+  visibility:hidden;
+  background-color: rgba(34, 34, 34, 0.6);
+  transition:opacity .2s linear, visibility .1s, width 1s ease-in;
+}
+.screen-overlay.show {
+  transition:opacity .5s ease, width 0s;
+  opacity:1;
+  width:100%;
+  visibility:visible;
+}
+	
+@media all and (max-width:992px) { 
+
+ .offcanvas-header{ display:block; }
+ 
+ .mobile-offcanvas{
+    visibility: hidden;
+    transform:translateX(-100%);
+    border-radius:0; 
+    display:block;
+    position: fixed;
+    top: 0; left:0;
+    height: 100%;
+    z-index: 1200;
+    width:auto;
+    transition: visibility .2s ease-in-out, transform .2s ease-in-out;
+	padding:0px !important;
+	
+  }
+  .mobile-offcanvas::after{
+    content: "";
+	bottom:-0.0rem;
+    height: 100%;
+	width:3px;
+    position: absolute;
+    right: 0;
+	margin-top:-100px;
+	background:url('../assets/img/Path 80.png');
+	z-index:20;
+  }
+   .mobile-offcanvas-line-left::after{
+    content: "";
+	bottom:-0.0rem;
+    height: 100%;
+	width:3px;
+    position: absolute;
+    left: 0;
+	margin-top:-100px;
+	background:url('../assets/img/Path 80.png');
+	z-index:20;
+  }
+	
+
+  .mobile-offcanvas.show{
+    visibility: visible;
+    transform: translateX(0);
+  }
+  #navbar_main li a, #navbar_main_right li a{
+	  font-size:12px;
+  }
+  .hamburger{
+	  border:none;
+	  color:white;
+	  background:none;
+  }
+
+
+
+}
+  #navbar_main .nav-item :hover, #navbar_main_right .nav-item :hover{
+	 
+	  margin-right:0;
+	  margin-left:0;
+	  
+  }
+  #navbar_main .active{
+	  background: url('../assets/img/Path 79.png');
+	  background-size:cover;
+	  margin:0;
+	  font-weight:400;
+	  font-size:12px;
+	  
+  }
+  #navbar_main_right .active{
+	  background: url('../assets/img/Path 79 left.png');
+	  background-size:cover;
+	  margin:0;
+	  font-weight:400;
+	  font-size:12px;
+  }
+  
+  .mobile-offcanvas-right{
+	  right:0;
+	  left:unset;
+	  transition: visibility .2s ease-in-out, transform .2s ease-in-out;
+	  transform:translateX(100%);
+	  float:right;
+  }
+
